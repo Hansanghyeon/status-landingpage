@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>준비중입니다</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body>
+    <!--
+    Welcome to Tailwind Play, the official Tailwind CSS playground!
+
+    Everything here works just like it does when you're running Tailwind locally
+    with a real build pipeline. You can customize your config file, use features
+    like `@apply`, or even add third-party plugins.
+
+    Feel free to play with this example if you're just learning, or trash it and
+    start from scratch if you know enough to be dangerous. Have fun!
+  -->
+  <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12 dark:bg-[#222831] dark:text-gray-300">
+    <div class="relative bg-white dark:bg-[#1C2128] shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg pt-0 overflow-hidden">
+      <div class="py-2 sm:px-10 dark:bg-black dark:bg-opacity-20">
+        <h2 class="text-[24px] font-bold text-red-500">ERROR</h2>
+      </div>
+      <div class="mx-auto max-w-md px-6 pb-8 sm:px-10 pt-6">
+        <div class="divide-y divide-gray-300/50">
+          <div class="space-y-6 text-base leading-7">
+            <p>서버가 아직 실행중이지 않습니다.</p>
+            <ul class="space-y-4">
+              <li class="flex items-center">
+                <svg class="h-6 w-6 flex-none fill-sky-100 dark:fill-sky-500 stroke-sky-500 dark:stroke-sky-900 stroke-2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="11" />
+                  <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                </svg>
+                <p class="ml-4">
+                  서버에 접속하십시오
+                </p>
+              </li>
+              <li class="flex items-center">
+                <svg class="h-6 w-6 flex-none fill-sky-100 dark:fill-sky-500 stroke-sky-500 dark:stroke-sky-900 stroke-2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="11" />
+                  <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                </svg>
+                <p class="ml-4">
+                  서버에 데몬을 실행하십시오
+                </p>
+              </li>
+            </ul>
+            <p>성공적인 개발프로젝트가 이뤄지길 바랍니다 😄</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
